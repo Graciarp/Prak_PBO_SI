@@ -14,10 +14,7 @@ public class main_public {
 
 //      Object
         data_class run = new data_class();
-/*
-    Object dalam satu class yang sama, digunakan jika method atau variable yang dipanggil tidak
-    menggunakan access specifier "static" karena pada main menggunakan access "static"
- */
+
         System.out.print("Jumlah mahasiswa yang akan diinputkan : ");
         jml_mhs = scanner.nextInt();
         System.out.println();
@@ -27,9 +24,5 @@ public class main_public {
 
 //      Memanggil method tampilbio
         run.tampilBio(jml_mhs);
-/*
-    Angka yang diinputkan pada parameter bebas, karena untuk menampung jumlah array yang
-    akan diinputkan
- */
     }
 }
