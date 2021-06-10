@@ -98,7 +98,9 @@ public class data_class {
         }
         System.out.println();
     }
-
+    
+    
+//  Method main untuk menjalankan method private
     public static void main(String[] args) {
         data_class obj = new data_class();
         obj.input_hobi();
