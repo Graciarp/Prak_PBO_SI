@@ -5,7 +5,7 @@ import java.util.Scanner;
 //  Contoh access modifier public
 public class data_class {
     //  Deklarasi variable
-    public String[] nama, alamat, hobi;
+    public String[] nama, hobi;
     private int[] nim;
     protected String prodi;
 
